@@ -39,7 +39,7 @@ const AddBlog = () => {
           cover:img,
           desc:data.detail
         }
-        fetch('http://localhost:5000/blog',{
+        fetch('https://calm-plateau-26528.herokuapp.com/blog',{
           method: "POST",
           headers:{
             'content-type':'application/json',

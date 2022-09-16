@@ -9,7 +9,7 @@ const Courese = () => {
         data: courese,
         isLoading,
       } = useQuery("courese", () =>
-        fetch("http://localhost:5000/coures", {
+        fetch("https://calm-plateau-26528.herokuapp.com/coures", {
           method: "GET",
           headers: {
             authorization: `bearer ${localStorage.getItem("accessToken")}`,
