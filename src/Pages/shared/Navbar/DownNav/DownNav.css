@@ -1,0 +1,9 @@
+.navbar-section{
+    /* background-color: rgba(255, 255, 255, 0.2); */
+}
+.navbar-end-button {
+    background-color: #1eb2a6;
+    padding: 30px 80px;
+    color: #fff;
+    clip-path: polygon(10% 0%, 100% 0, 100% 100%, 0% 100%);
+  }
